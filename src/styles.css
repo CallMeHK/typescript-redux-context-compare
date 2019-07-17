@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.sub-app {
+  border-style: solid;
+  border-color: white;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.children {
+  display: flex;
+  justify-content: space-between;
+}
+
+.children > div {
+  width: 40%;
+  border-width: 1px;
+}
